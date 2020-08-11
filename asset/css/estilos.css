@@ -1,0 +1,167 @@
+html,
+body {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-logo {
+	max-width: 50px;
+}
+
+.img-logo-h {
+	max-width: 40px;
+}
+
+iframe {
+	width: 350px;
+	height: 315px;
+}
+
+#footer {
+	background: #222;
+}
+
+.footer-text {
+	color: white;
+	padding: 1.87rem;
+	text-align: center;
+}
+
+h1 {
+	font-family: Oswald;
+	font-size: 28;
+}
+
+h3 {
+	font-family: Oswald;
+	font-size: 22;
+}
+
+h5 {
+	font-family: Oswald;
+	color: #ffffff;
+}
+
+p {
+	font-family: Abel;
+	font-size: 18;
+	text-align: justify;
+}
+
+.frase {
+	text-align: right;
+}
+
+@font-face {
+	font-family: 'Oswald';
+	src: url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Abel';
+	src: url(../fonts/Abel-Regular.ttf);
+}
+
+.nav-link {
+	cursor: pointer;
+}
+
+.nav-link-sesion {
+	text-align: right;
+}
+
+.login-box {
+	width: 80%;
+	height: 450px;
+	padding: 10px;
+	margin: 10px auto;
+	border-width: 12px;
+	border-style: inset;
+	border-radius: 40px;
+	border-color: blue red red blue;
+}
+
+.msg-error {
+	font-size: 12px;
+	font-style: italic;
+	color: #ff0000;
+}
+
+.signup-box {
+	width: 80%;
+	height: 530px;
+	padding: 10px;
+	margin: 10px auto;
+	border-width: 12px;
+	border-style: inset;
+	border-radius: 40px;
+	border-color: blue red red blue;
+}
+
+#formulario {
+	padding: 10px;
+	margin: 10px auto;
+	border-width: 12px;
+	border-style: double;
+	border-radius: 40px;
+	border-color: blue red red blue;
+}
+
+.fab.fa-instagram {
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	margin: 5px 0px 0px 15px;
+}
+
+.fab.fa-facebook {
+	color: royalblue;
+	float: right;
+	margin: 5px 0px 0px 15px;
+}
+
+.fab.fa-twitter {
+	color: lightskyblue;
+	float: right;
+	margin: 5px 0px 0px 15px;
+}
+
+#wallpaperUsers {
+	background-image: url("../../img/nba_wallpaper.png");
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.fa-plus-circle {
+	color: #3fb51b;
+}
+
+.fa-plus-circle:hover {
+	opacity: 0.80;
+	-moz-opacity: .80;
+	filter: alpha (opacity=80);
+}
+
+.usersText {
+	color: white;
+}
+
+@media (max-width: 768px) {
+	#wallpaperUsers {
+		background-image: url("../../img/nba_wallpaper.png");
+		background-color: black;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 400px;
+	}
+}
