@@ -100,7 +100,7 @@ INSERT INTO `HOME` (`Id`, `Contenido`, `Equipo1`, `Equipo2`, `Tipo`) VALUES
 (3, 'NBA Stat Leaders 2019-20', NULL, NULL, 'Titulo2'),
 (4, 'Este viernes jugarán los Cleveland Cavaliers vs Golden Sate Warriors.', 'Cavaliers', 'Warriors', 'Info'),
 (6, 'Este sábado jugarán San Antonio Spurs vs Los Milwaukee Bucks.', 'Spurs', 'Bucks', 'Info'),
-(7, '<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/CDV2AwOeeis\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', NULL, NULL, 'Video'),
+(7, '<iframe width="853" height="480" src="https://www.youtube.com/embed/5RsUR9pTD8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', NULL, NULL, 'Video'),
 (8, 'Mañana jugarán los Orlando Magic vs Cleveland Cavaliers.', 'Magic', 'Cavaliers', 'Info');
 
 -- --------------------------------------------------------
